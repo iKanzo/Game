@@ -23,12 +23,14 @@ a:hover {
 }
 
 .start {
-  font-size: 1.5rem;
+  font-size: 2.2rem;
+  text-transform: uppercase;
 }
 
 h1 {
   line-height: 1.4;
-  font-size: 4rem;
+  font-size: 5rem;
+  text-transform: uppercase;
   color: #475462;
 }
 
@@ -65,7 +67,7 @@ h1 {
 
 .time-btn {
   background-color: transparent;
-  border: 2px solid #C0C0C0;
+  border: 2px solid #475462;
   color: #475462;
   cursor: pointer;
   font-family: inherit;
@@ -74,8 +76,8 @@ h1 {
 }
 
 .time-btn:hover {
-  border: 2px solid #c57220;
-  color: #ac0202;
+  border: 2px solid #fff;
+  color: #2A333D;
 }
 
 .hide {
