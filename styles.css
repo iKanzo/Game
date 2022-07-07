@@ -107,3 +107,7 @@ h1 {
   border-radius: 50%;
   cursor: pointer;
 }
+
+.score{
+  font-size: 6.5rem;;
+}

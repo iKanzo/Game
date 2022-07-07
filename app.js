@@ -55,7 +55,7 @@ function setTime(value) {
 
 function finishGame() {
    timeEll.parentNode.classList.add('hide')
-   board.innerHTML = `<h1>Score: ${score}</h1>`
+   board.innerHTML = `<h1>Итог:  <span class="score">${score}</span></h1>`
 };
 
 function createRandomEll() {
