@@ -109,5 +109,16 @@ h1 {
 }
 
 .score{
-  font-size: 6.5rem;;
+  font-size: 6.5rem;
+}
+
+.new_game{
+  opacity: 0;  
+}
+.look{
+  opacity: 1;
+  text-transform: uppercase;
+  margin-top: 20px;
+  font-size: 1.5rem;
+  color: #2A333D;
 }

@@ -3,6 +3,7 @@ const screens = document.querySelectorAll('.screen');
 const timeList = document.querySelector('.time-list');
 const timeEll = document.querySelector('#time');
 const board = document.querySelector('#board');
+const newGame = document.querySelector('#new-game');
 let colors = ['red', 'green', 'white', 'blue', 'yellow', 'purple'];
 let score = 0;
 let time = 0;
@@ -27,8 +28,7 @@ board.addEventListener('click', event =>{
       event.target.remove()
       createRandomEll()
    }
-})
-
+   })
 function startGame() {
    setInterval(decreaseTime, 1000)
    createRandomEll()
@@ -54,8 +54,9 @@ function setTime(value) {
 };
 
 function finishGame() {
-   timeEll.parentNode.classList.add('hide')
+   timeEll.parentNode.classList.add('hide')   
    board.innerHTML = `<h1>Итог:  <span class="score">${score}</span></h1>`
+   newGame.classList.add('look')
 };
 
 function createRandomEll() {
